@@ -1,11 +1,17 @@
 def calculadora(a, b):
 	k = input('Deseja fazer qual operacao? ').upper()
 	if k == 'SOMA':
-		print(a + b)
+		return print(a + b)
 	if k == 'SUBTRACAO':
-		print(a - b)
+		return print(a - b)
 	if k == 'MULTIPLICACAO':
-		print(a * b)
+		return print(a * b)
 	if k == 'DIVISAO':
-		print(a / b)
-	
+		return print(a / b)
+
+
+
+print('='*25, 'CALCULADORA 2000', '='*25)
+n1 = int(input('Digite um numero: '))
+n2 = int(input('Digite um numero: '))
+
