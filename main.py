@@ -14,4 +14,8 @@ def calculadora(a, b):
 print('='*25, 'CALCULADORA 2000', '='*25)
 n1 = int(input('Digite um numero: '))
 n2 = int(input('Digite um numero: '))
-calculadora(n1, n2)
+if n1 == 0 or n2 == 0:
+	print('Nao pode')
+else:
+	calculadora(n1, n2)
+
