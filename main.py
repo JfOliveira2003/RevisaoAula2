@@ -18,4 +18,4 @@ if n1 == 0 or n2 == 0:
 	print('Nao pode')
 else:
 	calculadora(n1, n2)
-
+print('OBRIGADO POR USAR!')
